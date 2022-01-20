@@ -1,21 +1,23 @@
 <?php include("header.php"); ?>
-  <body>
+
+<div id="container">
 <?php include("nav.php"); ?>
-  <div id="container">
     <div class = "row">
       <div class="col-lg-3">
-        <figure> <img class="profile" src="images/louis.png"></figure>
+        <figure> <img class="profile img-center" src="images/louis.png"></figure>
       <h1>Louis Tychon</h1>
       <p>Training as a Web developer | SEO & SEA Specialist | Blockchain Enthousiast</p>
+
       </div>
 
       <div class="col-lg-7">
-      <div class="row">
+        <div id="details">
+          <div class="row">
           <h2 class="experiences">Details</h2>
                   <div class="col-lg-6">
                     <ul>
                       <li class="bullets"> <strong>Birthday:</strong> <span>21 October 1994</span></li>
-                      <li class="bullets"> <strong>Website:</strong> <a href="https://www.cryptopirate.fr/fr">cryptopirate.com</a></li>
+                      <li class="bullets"> <strong>Website:</strong> <a href="https://www.cryptopirate.fr/fr">cryptopirate.fr</a></li>
                       <li class="bullets"> <strong>E-mail:</strong> <span>louis.tychon1[a]gmail.com</span></li>
                     </ul>
                   </div>
@@ -27,16 +29,17 @@
                       <li><i class="bullets"></i> <strong>Freelance:</strong> <span>Available</span></li>
                     </ul>
                   </div>
+            </div>
       </div>
       <h2 class="experiences">Experiences</h2>
         <h3>Little Guest - Head of E-commerce & Marketing | 01/2019 - 10/2021</h3>
           <ul>
-          <li>Management d'une équipe de 5 à 10 personnes</li>
-          <li>Coordination des actions en marketing digital</li>
-          <li>Optimisation SEO & SEA</li>
-          <li>Gestion intégrale des réseaux sociaux & newsletters</li>
+          <li>Management of the marketing team (10 persons)</li>
+          <li>Coordinate all digital marketing actions</li>
+          <li>SEO & SEA optimization</li>
+          <li>Management of social networks and newsletters</li>
           </ul>
-        <h3>Pycogroup - Performance Manager Consultant | 09/2019 - 12/2019 </h3>
+        <h3>L'Oréal - Performance Manager Consultant | 09/2019 - 12/2019 </h3>
           <ul>
           <li>Management des performances des campagnes de Digital Marketing desmarques Vichy, La Roche Posay, Cerave et Roger & Gallet</li>
           <li>J'étais en charge du briefings et du follow-up de différentes campagnes avecdes agences (social, SEA, SEO)</li>
@@ -59,7 +62,6 @@
       <h3>HEPL Léon Eli-troclet - Bachelier </h3>
     <h2 class="interests">Compétences</h2>
     <h2 class="certificats">Certificats</h2>
-  </body>
 <div class="row">
   <?php include("footer.php"); ?>
     </div>
