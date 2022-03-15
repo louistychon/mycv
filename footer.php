@@ -1,2 +1,1 @@
-<?php include("header.php"); ?>
-<p class="footer"> tous droits réservés </p>
+<p class="footer"> Tous droits réservés </p>
