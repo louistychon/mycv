@@ -13,18 +13,18 @@
       <div class="row">
                   <div class="col-lg-6">
                     <ul>
-                      <li><i class="bullets"></i> <strong>Birthday:</strong> <span>21 October 1994</span></li>
-                      <li><i class="bullets"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                      <li><i class="bullets"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-                      <li><i class="bullets"></i> <strong>City:</strong> <span>New York, USA</span></li>
+                      <li><i class="bullets"></i> Birthday: 21 October 1994</li>
+                      <li><i class="bullets"></i> Website: www.cryptopirate.fr/fr</li>
+                      <li><i class="bullets"></i> Phone: won't share it on the web !</li>
+                      <li><i class="bullets"></i> City: New York, USA</li>
                     </ul>
                   </div>
                   <div class="col-lg-6">
                     <ul>
-                      <li><i class="bullets"></i> <strong>Age:</strong> <span>30</span></li>
-                      <li><i class="bullets"></i> <strong>Degree:</strong> <span>Master</span></li>
-                      <li><i class="bullets"></i> <strong>PhEmailone:</strong> <span>email@example.com</span></li>
-                      <li><i class="bullets"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                      <li><i class="bullets"></i> Age: 30</li>
+                      <li><i class="bullets"></i> Degree: Master</li>
+                      <li><i class="bullets"></i> PhEmailone: email@example.com</li>
+                      <li><i class="bullets"></i> Freelance: Available</li>
                     </ul>
                   </div>
       </div>

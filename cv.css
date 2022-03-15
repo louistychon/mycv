@@ -1,11 +1,5 @@
 /*body*/
 
-#container{
-  width:80%;
-  margin-left:auto;
-  margin-right:auto;
-}
-
 @font-face{
     font-family: 'SinkinSan';
     src: url('font/SinkinSans-100Thin.otf') format('otf');
@@ -13,13 +7,16 @@
 
 /*navigation*/
 
+body{
+  font-family: 'SinkinSan';
+}
+
 .nav-item{
   display:block;
   border:2px solid grey;
 }
 
 .navbar{
-  font-family: 'SinkinSan', Arial, serif;
   font-size: 1.7em;
 }
 li a{
@@ -33,9 +30,7 @@ nav-item{
 
 /*contenu*/
 
-h1, h2, h3, h4{
-    font-family: 'SinkinSan', Arial, serif;
-}
+
 
 h1{
   color:#ffffff;
