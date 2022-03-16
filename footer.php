@@ -1,1 +1,3 @@
-<p class="footer"> Tous droits réservés </p>
+<footer>
+<p> All rights reserved </p>
+</footer>

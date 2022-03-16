@@ -5,39 +5,44 @@
     src: url('font/SinkinSans-100Thin.otf') format('otf');
 }
 
-/*navigation*/
 
 body{
   font-family: 'SinkinSan';
 }
 
+/*footer*/
+
+footer{
+  position: relative;
+  text-align: center;
+  background-color: #f8f9fa;
+  height:2.5em;
+}
+
+/*navigation*/
+
 nav{
   font-size : 1.2em;
-  background-color:#335384;
+  position:sticky;
+  top:0;
 }
 
-nav-item{
-  background-color:red;
-  padding: 0.1%;
+.nav-link{
+  background-color: #335384;
 }
 
-/*contenu*/
+/*content*/
 
 li{
-  margin-left:1em;
   list-style-type:none;
 }
 
-.check li::before{
-  content: "✔️";
+li.check::before{
+  content: " ✔️";
 }
 
 h1{
   font-size : 2em;
-}
-
-.col-lg-6 ul{
-  list-style:none;
 }
 
 .col-3{
@@ -45,15 +50,11 @@ h1{
   background-color:#335384;
   color:#ffffff;
   padding:15px;
+  height:auto;
 }
 .col-3 p{
   font-family: 'SinkinSan', Arial, serif;
   color:#ffffff;
-}
-
-.profile {
- top:0;
- margin:auto;
 }
 
 .col-7{
@@ -62,26 +63,14 @@ h1{
 
 img.profile
 {
-  max-width: 33%;
+  max-width: 40%;
 }
 
 #details{
   border:2px solid black;
 }
 
-.navbar{
-  justify-content:center;
-}
-
-/*footer*/
-
-.footer{
-  position: relative;
-}
-
-
 .social a{
   text-decoration: none;
   color:#ffffff;
-  text-align: left;
 }
