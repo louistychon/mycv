@@ -74,3 +74,15 @@ img.profile
   text-decoration: none;
   color:#ffffff;
 }
+
+::-webkit-input-placeholder { /* Edge */
+  text-align:center;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  text-align:center;
+}
+
+::placeholder {
+  text-align:center;
+}
