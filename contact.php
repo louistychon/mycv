@@ -17,12 +17,10 @@
         <form method="post" action="postvalidation.php" class="d-flex-col">
             <div class="input mt-1"><input type="text" name="nom" class="rounded-pill" placeholder="Your name*" required></div>
             <div class="input mt-1"><input  class="rounded-pill" type="url" name="job" placeholder="Job link"></div>
-            <div class="input mt-1"><input class="rounded-pill" type="text" name="email" placeholder="E-mail*" required></div>
-            <div class="input mt-1"><input class="rounded-pill" type="text" name="msg" placeholder="Your message" required></div>
+            <div class="input mt-1"><input class="rounded-pill" type="email" name="email" placeholder="E-mail*" required></div>
+            <div class="input mt-1"><textarea class="" rows="5" cols="50" type="text" name="msg" placeholder="Your message" required></textarea></div>
             <button type="submit" class="rounded-pill btn btn-primary mt-1">Send form</button>
         </form>
-
-        <div> Note : votre e-mail est entièrement chiffré dans notre base de données (c'est-à-dire illisible pour d'éventuels hackers)<br>le Hash de votre e-mail : </div>
     </div>
 
 
